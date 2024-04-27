@@ -1,0 +1,31 @@
+.lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.country {
+  font-family: 'Roboto';
+  color: #fff;
+  font-size: 25px;
+}
+.visited-para {
+  font-family: 'Roboto';
+  color: #fff;
+  font-size: 20px;
+}
+.visit-btn {
+  width: 80px;
+  padding: 5px;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+}

@@ -1,0 +1,69 @@
+.country-container {
+  background-color: #161624;
+  height: 150vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #fff;
+  font-size: 30px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 300px;
+  width: 80%;
+  background-color: #1f1f2f;
+  border: 2px solid #1f1f2f;
+  border-radius: 10px;
+}
+.bottom-head {
+  font-family: 'Roboto';
+  color: #fff;
+  font-size: 25px;
+}
+.list-containers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.countries-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 0;
+  margin-bottom: 15px;
+}
+.un-order-list {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  overflow-y: auto;
+  border: 1px solid #334155;
+  background-color: #1f1f2f;
+  border-radius: 9px;
+  padding-left: 0px;
+}
+.visited-un-order {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.no-countries {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 41vh;
+}
